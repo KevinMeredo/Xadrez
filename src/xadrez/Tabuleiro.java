@@ -476,6 +476,7 @@ public class Tabuleiro {
                             tomar = true;
                             System.out.println("da pra tomar atacante"+quemAtaca.simbolo);
                         }
+                        reiAtacando = false;
                         //dá pra bloquear o ataque?
                         if (possivelBloquear) {
                             System.out.println("dá pra bloquear");
@@ -505,6 +506,7 @@ public class Tabuleiro {
 
                             tomar = true;
                         }
+                        reiAtacando = false;
                         //dá pra bloquear o ataque?
                         if (possivelBloquear) {
                             System.out.println("dá pra bloquear");
