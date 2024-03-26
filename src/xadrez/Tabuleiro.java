@@ -46,25 +46,25 @@ public class Tabuleiro {
                 }
                 switch (i) {
                     case 1, 6:
-                        this.nome = " Peão";
+                        this.nome = "  P  ";
                         break;
 
                     case 0, 7:
                         switch (j) {
                             case 0, 7:
-                                this.nome = " Torre";
+                                this.nome = "  T  ";
                                 break;
                             case 1, 6:
-                                this.nome = "Cavalo";
+                                this.nome = "  C  ";
                                 break;
                             case 2, 5:
-                                this.nome = "Bispo";
+                                this.nome = "  B  ";
                                 break;
                             case 3:
-                                this.nome = "Dama";
+                                this.nome = "  D  ";
                                 break;
                             case 4:
-                                this.nome = "Rei";
+                                this.nome = "  R  ";
                                 break;
                         }
                         break;
